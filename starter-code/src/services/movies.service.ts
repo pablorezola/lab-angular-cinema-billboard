@@ -14,7 +14,7 @@ export interface Movies {
 
 @Injectable()
 export class MoviesService {
-   movies: Array<object> = [
+   Movies: Array<object> = [
     {
       id: 1,
       title: "The Shawshank Redemption",
@@ -112,12 +112,12 @@ export class MoviesService {
   constructor() { }
 
   getMovies(){
-    return this.movies;
+    return this.Movies;
 
   }
 
   getMovie(id){
-    return this.movies[id];
+    return this.Movies[id];
 
   }
 
