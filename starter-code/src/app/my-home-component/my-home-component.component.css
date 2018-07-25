@@ -1,0 +1,13 @@
+
+.movies {
+ display: flex;
+ justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 50%;
+}
