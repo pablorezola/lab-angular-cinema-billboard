@@ -8,6 +8,21 @@ li {
     list-style: none;
 }
 
-img {
-    width: 50%;
+.list {
+    width: 60%;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    margin-left: 20.5em;
+    color: darkblue;
+}
+
+h2 {
+    color: darkblue;
+    font-size: 1em;
 }

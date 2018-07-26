@@ -1,3 +1,20 @@
-<p>
-  my-movie-component works!
-</p>
+<div class="container">
+  <img src="{{movie.poster}}" width="200px" height="300px" alt="">
+  <p>
+    <b>Genre:</b> {{movie.genres}}</p>
+  <p>
+    <b>Year: </b>{{movie.year}}</p>
+  <p>
+    <b>Director:</b> {{movie.director}}</p>
+  <p>
+    <b>Actors:</b> {{movie.actors}}</p>
+  <p>
+    <b>Schedule:</b> {{movie.hours}}</p>
+  <p>
+    <b>Synopsis:</b>
+  </p>
+  <p>{{movie.synopsis}}</p>
+  <a [routerLink]="['/home']">
+    <button class="btn btn-primary"> HOME</button>
+  </a>
+</div>
